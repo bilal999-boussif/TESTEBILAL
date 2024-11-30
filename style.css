@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif ;
+}
+.parent{
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #121125;
+}
+fieldset{
+    padding: 100px;
+    background: linear-gradient(45deg,#14aeb4,#fe1936);
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+input{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+input:hover{
+    border: 3px solid transparent;
+    transition: all 0.1s ease;
+    background: linear-gradient(#f4f4f4,#f4f4f4)padding-box,
+    linear-gradient(45deg,red,blue)border-box;
+}
+input:active{
+    border: 2px solid transparent;
+    transition: all 0.1s ease;
+    background: linear-gradient(#f4f4f4,#f4f4f4)padding-box,
+    linear-gradient(45deg,red,blue)border-box;
+}
