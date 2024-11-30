@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="parent">
+    <form action="etude.php" method="get">
+        <fieldset>
+            <h1>Formulaire :</h1>
+            <div class="box">
+                <label for="">Nom: </label>
+                <input type="text">
+                <label for="">Prenom: </label>
+                <input type="text">
+                <label for="">Genre: </label>
+                <input type="text">
+                <label for="">Adresse: </label>
+                <input type="text">
+                <label for="city">Pay: </label>
+                <input list="city" name="city">
+                <datalist id="city">
+                    <option>oued zem</option>
+                    <option>beni mallal</option>
+                    <option>khouribga</option>
+                </datalist>
+            </div>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
